@@ -87,8 +87,3 @@ mysql> select company_name, sum(salary), count(company_name) as "number of emplo
 
 (h)
 mysql> select company_name,max(salary) from works;
-
-
-
-
-
