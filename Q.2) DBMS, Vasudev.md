@@ -5,6 +5,7 @@ DBMS Assignment to Mr. Vipin sir
  ROLL No.- 20191238
  COURSE- B.Sc. STATISTICS (H)
 
+
 Q.2)
 mysql> create database cs_student;
 
@@ -63,8 +64,3 @@ mysql> select pi.name, ad.attendence, ad.marks from personal_informartion as pi,
 
 (e)
 mysql> select name from personal_informartion as pi, academic_details as ad where pi.roll_no=ad.roll_no and pi.roll_no=(select roll_no from academic_details where marks=(select max(marks) from academic_details));
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
