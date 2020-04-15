@@ -1,5 +1,8 @@
 # deVasu-DBMS-Assignment
 DBMS Assignment to Mr. Vipin sir
+ Vasudev
+ 20191238
+ B.Sc. Statistics
 
 
 1.
