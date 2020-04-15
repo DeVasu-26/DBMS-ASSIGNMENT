@@ -80,7 +80,3 @@ mysql> select bm.manufacturer from bicycle as bi, bicyclemodel as bm where bi.mo
 
 (e)
 mysql> select modelno from bicycle where bicycleid in(select distinct bicycleid from service);
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
